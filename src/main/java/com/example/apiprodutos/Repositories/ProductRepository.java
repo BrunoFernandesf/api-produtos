@@ -1,0 +1,10 @@
+package com.example.apiprodutos.Repositories;
+
+import com.example.apiprodutos.Models.ProductModel;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.UUID;
+
+public interface ProductRepository extends JpaRepository<ProductModel, UUID> {
+
+}
